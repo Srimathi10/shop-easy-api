@@ -1,0 +1,9 @@
+# Who must review changes to which code (Video 12).
+# Replace the team names with real teams in your GitHub organization.
+
+*                     @shopeasy/backend-team
+/src/auth.py          @shopeasy/security-team
+/src/password_reset.py @shopeasy/security-team
+/src/payment.py       @shopeasy/payments-team
+/src/checkout.py      @shopeasy/payments-team
+/.github/             @shopeasy/platform-team
