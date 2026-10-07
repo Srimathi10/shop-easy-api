@@ -1,5 +1,5 @@
 
-from narwhals import Decimal
+from decimal import Decimal
 from src.product import Product, search_products
 
 products = [

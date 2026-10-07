@@ -22,6 +22,5 @@ def search_products(products, keyword):
         keyword_lower = keyword.lower()
         return [
             product for product in products
-            if keyword_lower in product.sku.lower() or
-               (product.name and keyword_lower in product.name.lower())
+            if keyword_lower in product.name.lower()
         ]
