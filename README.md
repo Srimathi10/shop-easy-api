@@ -53,3 +53,5 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit messages and th
 ## Development notes
 
 Authentication and checkout logic are covered by automated tests. Run `pytest` before opening a pull request.
+
+The command-line demo can be started with `python -m src.app`.
