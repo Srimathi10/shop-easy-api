@@ -19,7 +19,7 @@ FREE_SHIPPING_THRESHOLD = Decimal("50.00")
 
 # Feature flags let us deploy code with a feature switched off.
 FEATURE_FLAGS = {}
-
+MAX_RESULTS = 20
 
 def is_enabled(flag: str) -> bool:
     env = os.environ.get(f"SHOPEASY_FF_{flag.upper()}")
