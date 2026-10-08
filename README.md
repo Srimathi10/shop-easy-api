@@ -48,3 +48,8 @@ shop-easy-api/
 - Open a Pull Request using the template. CI must pass and a reviewer must approve.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for branch naming, commit messages and the review process.
+
+
+## Development notes
+
+Authentication and checkout logic are covered by automated tests. Run `pytest` before opening a pull request.
