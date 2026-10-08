@@ -7,7 +7,7 @@ import os
 from decimal import Decimal
 
 APP_NAME = "shop-easy-api"
-VERSION = "2.3.0"
+VERSION = "2.3.1"
 ENVIRONMENT = os.environ.get("SHOPEASY_ENV", "development")
 BASE_URL = os.environ.get("SHOPEASY_BASE_URL", "http://localhost:8000")
 SUPPORT_EMAIL = "support@shopeasy.example"
